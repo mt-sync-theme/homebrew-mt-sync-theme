@@ -1,23 +1,23 @@
 require "formula"
 
-HOMEBREW_MT_SYNC_THEME_VERSION='0.1.0'
+HOMEBREW_MT_SYNC_THEME_VERSION='0.1.1'
 class MtSyncTheme < Formula
   homepage "https://github.com/mt-sync-theme/mt-sync-theme"
   if OS.mac?
     if Hardware.is_64_bit?
-      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.0/mt-sync-theme_v0.1.0_darwin_amd64.zip"
-      sha1 "97b182f7f6bd88613ad2c36dd08e91d86dc4e4fe"
+      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.1/mt-sync-theme_v0.1.1_darwin_amd64.zip"
+      sha1 "1932d3e4ebdd38f7b6df27e515db3be29cbc6c32"
     else
-      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.0/mt-sync-theme_v0.1.0_darwin_386.zip"
-      sha1 "6682509d102d90683eba0d43706138af43854013"
+      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.1/mt-sync-theme_v0.1.1_darwin_386.zip"
+      sha1 "5fa7589275456b075edb78e1a7dd15905da1230a"
     end
   elsif OS.linux?
     if Hardware.is_64_bit?
-      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.0/mt-sync-theme_v0.1.0_linux_amd64.zip"
-      sha1 "fca25587c9355422fc83d67b43b797955f6e6692"
+      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.1/mt-sync-theme_v0.1.1_linux_amd64.zip"
+      sha1 "08af8cfa7b3d3b45f5989b5b5f267d0a82260d8d"
     else
-      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.0/mt-sync-theme_v0.1.0_linux_386.zip"
-      sha1 "30bd7f95b81cde6b054d07c7cd2f782cd190a5e4"
+      url "https://github.com/mt-sync-theme/mt-sync-theme/releases/download/v0.1.1/mt-sync-theme_v0.1.1_linux_386.zip"
+      sha1 "da9f40b7bb6526f5836c50b587ebbbadeb0d4244"
     end
   end
 
